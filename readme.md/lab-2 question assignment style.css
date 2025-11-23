@@ -1,0 +1,87 @@
+/* Google Font and Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header Section */
+#main-header {
+  background-color: #0044cc;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+}
+
+#main-header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+#main-header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content Sections */
+.content {
+  padding: 20px 40px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #cce0ff;
+}
+
+/* Button Styling */
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Back to Top Button */
+#back-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Horizontal Rule */
+hr {
+  border: 1px solid #ccc;
+  margin: 30px 0;
+}
